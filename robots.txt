@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://lulu7755000-wq.github.io/tjm-facile/sitemap.xml
