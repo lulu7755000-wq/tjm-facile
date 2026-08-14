@@ -80,6 +80,17 @@ export default function Home() {
           </section>
 
           <FAQ />
+              {/* SECTION RECOMMANDATIONS POUR GAGNER DE L'ARGENT */}
+      <div className="bg-gray-50 p-6 rounded-xl mt-10 border-l-4 border-blue-600">
+        <h3 className="text-xl font-bold mb-3">🛠️ Les outils recommandés par TJM Facile</h3>
+        <p className="mb-4">Tu as calculé ton TJM ? Voici les meilleurs outils pour gérer ton statut et gagner du temps :</p>
+        <ul className="space-y-3">
+          <li>✅ <strong>Comptabilité :</strong> <a href="https://www.indy.fr/?utm_source=tjmfacile" target="_blank" className="text-blue-600 hover:underline">Indy</a> – Le logiciel de comptabilité préféré des freelances (déclaration URSSAF en 1 clic).</li>
+          <li>✅ <strong>Banque pro :</strong> <a href="https://qonto.com/fr/invitation?via=tjmfacile" target="_blank" className="text-blue-600 hover:underline">Qonto</a> – Ouvre un compte pro en 10 min, sans justificatif.</li>
+          <li>✅ <strong>Expert-comptable :</strong> <a href="https://www.dougs.fr/?utm=tjmfacile" target="_blank" className="text-blue-600 hover:underline">Dougs</a> – L'expert-comptable 100% en ligne, spécialisé micro-entreprise.</li>
+        </ul>
+        <p className="text-sm text-gray-500 mt-4">Ces liens sont des liens d'affiliation. Cela vous coûte le même prix et nous aide à maintenir l'outil gratuit !</p>
+      </div>
         </div>
       </main>
       <Footer />
