@@ -80,7 +80,7 @@ export default function Home() {
           </section>
 
           <FAQ />
-          
+
           {/* SECTION RECOMMANDATIONS POUR GAGNER DE L'ARGENT */}
           <div className="bg-gray-50 p-6 rounded-xl mt-10 border-l-4 border-blue-600">
             <h3 className="text-xl font-bold mb-3">🛠️ Les outils recommandés par TJM Facile</h3>
@@ -92,7 +92,7 @@ export default function Home() {
             </ul>
             <p className="text-sm text-gray-500 mt-4">Ces liens sont des liens d'affiliation. Cela vous coûte le même prix et nous aide à maintenir l'outil gratuit !</p>
           </div>
-          
+
         </div>
       </main>
       <Footer />
