@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://tjm-facile.vercel.app/sitemap.xml",
+    sitemap: "https://lulu7755000-wq.github.io/tjm-facile/sitemap.xml",
   };
 }

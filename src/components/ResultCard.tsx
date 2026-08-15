@@ -7,7 +7,31 @@ interface Props {
   rang: number;
 }
 
+const PARTENAIRE: Record<string, { texte: string; lien: string; libelle: string }> = {
+  micro: {
+    texte: "Gérez votre micro-entreprise sans prise de tête",
+    lien: "https://www.indy.fr/?utm_source=tjmfacile",
+    libelle: "Indy — la compta des freelances",
+  },
+  sasu: {
+    texte: "La comptabilité de votre SASU au meilleur prix",
+    lien: "https://www.dougs.fr/?utm=tjmfacile",
+    libelle: "Dougs — expert-comptable en ligne",
+  },
+  eurl: {
+    texte: "La comptabilité de votre EURL sans stress",
+    lien: "https://www.dougs.fr/?utm=tjmfacile",
+    libelle: "Dougs — expert-comptable en ligne",
+  },
+  portage: {
+    texte: "Un compte pro pour encaisser vos missions",
+    lien: "https://qonto.com/fr/invitation?via=tjmfacile",
+    libelle: "Qonto — banque pro en 10 min",
+  },
+};
+
 export default function ResultCard({ resultat, accent, rang }: Props) {
+  const partenaire = PARTENAIRE[resultat.statut];
   return (
     <article className={`rounded-xl border p-5 ${accent}`}>
       <div className="mb-3 flex items-center justify-between">
@@ -56,6 +80,29 @@ export default function ResultCard({ resultat, accent, rang }: Props) {
         </ul>
         <p className="mt-2 italic text-gray-500">{resultat.explication}</p>
       </details>
+
+      {resultat.avertissement && (
+        <div className="mt-3 rounded-lg border border-amber-300 bg-amber-50 p-3 text-xs font-medium text-amber-800">
+          ⚠️ {resultat.avertissement}
+        </div>
+      )}
+
+      {partenaire && (
+        <div className="mt-3">
+          <a
+            href={partenaire.lien}
+            target="_blank"
+            rel="nofollow sponsored"
+            className="flex items-center justify-between gap-2 rounded-lg bg-white px-3 py-2.5 text-xs font-semibold text-brand-800 shadow-sm transition hover:shadow-md"
+          >
+            <span>{partenaire.texte}</span>
+            <span aria-hidden="true">→</span>
+          </a>
+          <p className="mt-1 text-[10px] text-gray-400">
+            {partenaire.libelle} · Lien partenaire (même prix pour vous).
+          </p>
+        </div>
+      )}
     </article>
   );
 }

@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Footer() {
   const annee = new Date().getFullYear();
   return (
@@ -9,12 +10,15 @@ export default function Footer() {
             remplacent pas un conseil d&apos;expert-comptable.
           </p>
           <div className="flex gap-6">
-            <a href="#faq" className="hover:text-brand-700">
+            <Link href="/faq/" className="hover:text-brand-700">
               FAQ
-            </a>
-            <a href="#statuts" className="hover:text-brand-700">
+            </Link>
+            <Link href="/statuts/" className="hover:text-brand-700">
               Statuts
-            </a>
+            </Link>
+            <Link href="/blog/" className="hover:text-brand-700">
+              Blog
+            </Link>
           </div>
         </div>
         <p className="mt-4 text-center text-xs text-gray-400">

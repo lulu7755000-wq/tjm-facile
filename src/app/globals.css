@@ -9,3 +9,33 @@
 html {
   scroll-behavior: smooth;
 }
+
+@layer components {
+  .article-body h2 {
+    @apply mb-3 mt-10 text-2xl font-bold tracking-tight text-brand-900;
+  }
+  .article-body h3 {
+    @apply mb-2 mt-6 text-lg font-bold text-gray-900;
+  }
+  .article-body p {
+    @apply mb-4 leading-relaxed text-gray-700;
+  }
+  .article-body a {
+    @apply font-semibold text-brand-600 underline decoration-brand-200 underline-offset-2 hover:text-brand-800;
+  }
+  .article-body ul {
+    @apply mb-4 list-disc space-y-2 pl-5 text-gray-700;
+  }
+  .article-body table {
+    @apply mb-6 w-full border-collapse overflow-hidden rounded-lg text-sm;
+  }
+  .article-body th {
+    @apply bg-brand-800 px-3 py-2 text-left font-bold text-white;
+  }
+  .article-body td {
+    @apply border border-brand-100 bg-white px-3 py-2 text-gray-700;
+  }
+  .article-body strong {
+    @apply font-bold text-gray-900;
+  }
+}

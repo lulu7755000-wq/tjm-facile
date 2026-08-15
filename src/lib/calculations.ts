@@ -62,6 +62,7 @@ function calculerMicro(inputs: Inputs): Resultat {
   const chargesAnn = caAnnuel * charges;
   const impot = impotIR(caAnnuel * (1 - abattementFrais));
   const joursAn = inputs.joursParMois * 11;
+  const depassePlafond = caAnnuel > plafondBnc;
 
   return {
     statut: "micro",
@@ -80,6 +81,9 @@ function calculerMicro(inputs: Inputs): Resultat {
       { label: "CFE minimum (approximatif)", valeur: cfeMinimum },
     ],
     explication: `Statut ultra-simple. Impôt sur le revenu au barème réel (abattement 34 %). Attention : le plafond BNC 2025 est de ${plafondBnc.toLocaleString("fr-FR")} € de CA.`,
+    avertissement: depassePlafond
+      ? `Votre chiffre d'affaires annuel (${caAnnuel.toLocaleString("fr-FR")} €) dépasse le plafond micro-BNC de ${plafondBnc.toLocaleString("fr-FR")} €. Au-delà, la micro-entreprise devient impossible : passez en SASU ou EURL.`
+      : undefined,
   };
 }
 

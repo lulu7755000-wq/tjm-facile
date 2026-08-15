@@ -21,4 +21,5 @@ export interface Resultat {
   impotAnnuuel: number;
   details: Detail[];
   explication: string;
+  avertissement?: string;
 }

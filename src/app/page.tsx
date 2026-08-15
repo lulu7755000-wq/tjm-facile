@@ -1,7 +1,9 @@
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Calculator from "@/components/Calculator";
 import FAQ from "@/components/FAQ";
+import { ARTICLES, formatDate } from "@/lib/articles";
 
 const STATUTS = [
   {
@@ -79,20 +81,38 @@ export default function Home() {
             </div>
           </section>
 
+          <section id="blog" className="py-10">
+            <div className="flex items-end justify-between gap-4">
+              <div>
+                <h2 className="text-2xl font-bold text-brand-900">Guides pour fixer votre TJM</h2>
+                <p className="mt-1 text-sm text-gray-600">
+                  Méthodes, chiffres du marché 2025 et pièges à éviter.
+                </p>
+              </div>
+              <Link href="/blog/"
+                className="shrink-0 text-sm font-semibold text-brand-600 hover:text-brand-800"
+              >
+                Tous les guides →
+              </Link>
+            </div>
+            <div className="mt-6 grid gap-4 md:grid-cols-3">
+              {ARTICLES.slice(0, 3).map((article) => (
+                <Link
+                  key={article.slug}
+                  href={`/blog/${article.slug}/`}
+                  className="rounded-xl border border-brand-100 bg-white p-5 shadow-sm transition hover:border-brand-300 hover:shadow-md"
+                >
+                  <p className="text-xs text-gray-400">
+                    {formatDate(article.date)} · {article.lectureMinutes} min
+                  </p>
+                  <h3 className="mt-2 font-bold text-gray-900">{article.titre}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-gray-600">{article.description}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+
           <FAQ />
-
-          {/* SECTION RECOMMANDATIONS POUR GAGNER DE L'ARGENT */}
-          <div className="bg-gray-50 p-6 rounded-xl mt-10 border-l-4 border-blue-600">
-            <h3 className="text-xl font-bold mb-3">🛠️ Les outils recommandés par TJM Facile</h3>
-            <p className="mb-4">Tu as calculé ton TJM ? Voici les meilleurs outils pour gérer ton statut et gagner du temps :</p>
-            <ul className="space-y-3">
-              <li>✅ <strong>Comptabilité :</strong> <a href="https://www.indy.fr/?utm_source=tjmfacile" target="_blank" className="text-blue-600 hover:underline">Indy</a> – Le logiciel de comptabilité préféré des freelances (déclaration URSSAF en 1 clic).</li>
-              <li>✅ <strong>Banque pro :</strong> <a href="https://qonto.com/fr/invitation?via=tjmfacile" target="_blank" className="text-blue-600 hover:underline">Qonto</a> – Ouvre un compte pro en 10 min, sans justificatif.</li>
-              <li>✅ <strong>Expert-comptable :</strong> <a href="https://www.dougs.fr/?utm=tjmfacile" target="_blank" className="text-blue-600 hover:underline">Dougs</a> – L'expert-comptable 100% en ligne, spécialisé micro-entreprise.</li>
-            </ul>
-            <p className="text-sm text-gray-500 mt-4">Ces liens sont des liens d'affiliation. Cela vous coûte le même prix et nous aide à maintenir l'outil gratuit !</p>
-          </div>
-
         </div>
       </main>
       <Footer />
