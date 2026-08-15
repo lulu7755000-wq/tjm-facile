@@ -5,6 +5,8 @@ const nextConfig = {
   output: "export",
   // Le site est hébergé sous https://lulu7755000-wq.github.io/tjm-facile
   basePath: "/tjm-facile",
+  // Génère /blog/calcul-tjm/index.html (URLs propres sur GitHub Pages)
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
