@@ -55,6 +55,9 @@ export default function RootLayout({
     <html lang="fr">
       <body className="min-h-screen bg-gray-50 text-gray-900 antialiased">
         {children}
+        <footer className="py-4 text-center text-xs text-gray-400">
+          <span data-goatcounter="true">…</span> visites sur ce site
+        </footer>
         <GoatCounter />
       </body>
     </html>
