@@ -80,6 +80,42 @@ export const ARTICLES: Article[] = [
     lectureMinutes: 4,
     keywords: ["tjm debutant", "combien facturer freelance debutant", "tjm premiere annee", "se lancer freelance tarif"],
   },
+  {
+    slug: "tjm-sasu",
+    titre: "TJM SASU 2025 : combien facturer en SASU pour bien gagner sa vie ?",
+    description:
+      "Le statut prefere des freelances qui veulent optimiser : IS a 15 %, flat tax 30 % et remuneration souple. Le calcul complet du TJM en SASU avec tableaux par revenu vise.",
+    date: "2026-08-21",
+    lectureMinutes: 5,
+    keywords: ["tjm sasu", "sasu tarif journalier", "president sasu tjm", "sasu charges 2025"],
+  },
+  {
+    slug: "tjm-graphiste",
+    titre: "TJM graphiste freelance 2025 : combien facture un designer ?",
+    description:
+      "TJM d'un graphiste freelance en 2025 par specialite : identite visuelle, UI/UX, illustration, motion design et direction artistique. Les vrais chiffres du marche.",
+    date: "2026-08-21",
+    lectureMinutes: 4,
+    keywords: ["tjm graphiste", "tarif graphiste freelance", "tjm designer", "graphiste freelance tarif"],
+  },
+  {
+    slug: "tjm-consultant",
+    titre: "TJM consultant freelance 2025 : combien facture un consultant ?",
+    description:
+      "Combien facture un consultant freelance en 2025 ? Les TJM par specialite (strategie, IT, management, RH) et par experience, avec les leviers pour augmenter son tarif.",
+    date: "2026-08-21",
+    lectureMinutes: 5,
+    keywords: ["tjm consultant", "consultant freelance tarif", "taux journalier consultant", "consultant independant tjm"],
+  },
+  {
+    slug: "tjm-impots",
+    titre: "TJM et impots 2025 : combien vous reste-t-il vraiment dans la poche ?",
+    description:
+      "Le poste oublie du TJM : l'impot sur le revenu. Combien l'Etat preleve selon votre statut (micro, SASU, EURL, portage) et comment ne pas se tromper dans son calcul.",
+    date: "2026-08-21",
+    lectureMinutes: 5,
+    keywords: ["tjm impots", "tjm net apres impots", "fiscalite freelance", "impot freelance tjm"],
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {

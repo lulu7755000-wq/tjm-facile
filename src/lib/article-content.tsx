@@ -931,4 +931,87 @@ facturés réalistes (16 à 18/mois la première année), statut et charges. Un 
       </p>
     </>
   ),
+  "tjm-sasu": (
+    <>
+      <p>La <strong>SASU</strong> est le statut prefere des freelances qui veulent optimiser : IS a 15 % jusqu’a 42 500 EUR de benefice, flat tax 30 % et remuneration souple.</p>
+      <h2>Pourquoi la SASU a un TJM different</h2>
+      <ul><li><strong>Deux impots :</strong> IS (15 % puis 25 %) + IR sur salaire/dividendes.</li><li><strong>75 % de charges</strong> si 100 % en salaire. Mix salaire/dividendes baisse ce taux.</li><li><strong>Frais reels deductibles</strong> : loyer, materiel, comptable.</li></ul>
+      <h2>Tableau : TJM SASU par revenu net vise (18 jours/mois)</h2>
+      <table><thead><tr><th>Net mensuel vise</th><th>TJM SASU (HT)</th><th>CA annuel</th></tr></thead><tbody>
+          <tr><td>2 500 EUR</td><td>310 EUR/jour</td><td>61 000 EUR</td></tr>
+          <tr><td>3 000 EUR</td><td>370 EUR/jour</td><td>73 000 EUR</td></tr>
+          <tr><td>4 000 EUR</td><td>430 EUR/jour</td><td>86 000 EUR</td></tr>
+          <tr><td>5 500 EUR</td><td>590 EUR/jour</td><td>117 000 EUR</td></tr>
+        </tbody></table>
+      <h2>SASU vs les 3 autres statuts (4 000 EUR net, 18 j)</h2>
+      <table><thead><tr><th>Statut</th><th>TJM</th><th>A retenir</th></tr></thead><tbody>
+          <tr><td>Micro-entreprise</td><td>380 EUR</td><td>TJM le plus bas, plafond 77 700 EUR</td></tr>
+          <tr><td>Portage salarial</td><td>400 EUR</td><td>Zero paperasse, 8 % de frais</td></tr>
+          <tr><td>SASU</td><td>430 EUR</td><td>Le plus souple</td></tr>
+          <tr><td>EURL</td><td>520 EUR</td><td>Charges lourdes, retraite solide</td></tr>
+        </tbody></table>
+      <h2>3 erreurs classiques en SASU</h2>
+      <ul><li><strong>100 % en salaire la 1ere annee</strong> : gardez de la tresorerie et versez des dividendes l’annee suivante.</li><li><strong>Oublier le comptable</strong> : 1 200 a 2 500 EUR/an. Un <a href="https://www.dougs.fr/?utm=tjmfacile" target="_blank" rel="nofollow sponsored">expert-comptable en ligne comme Dougs</a> divise la facture.</li><li><strong>Meme TJM qu’en micro</strong> : la SASU a plus de frais fixes.</li></ul>
+      <p>Calculez votre TJM SASU : <strong><Link href="/">calculateur gratuit</Link></strong>.</p>
+      <p>A lire aussi : <Link href="/blog/tjm-eurl/">TJM EURL</Link> et <Link href="/blog/tjm-micro-entreprise/">TJM micro-entreprise</Link>.</p>
+    </>
+  ),
+  "tjm-graphiste": (
+    <>
+      <p>Combien facture un <strong>graphiste freelance</strong> en 2025 ? <strong>TJM moyen 350 a 400 EUR</strong> (mediane 380 EUR), de 250 EUR junior a 700 EUR+ DA.</p>
+      <h2>TJM par specialite (2025, France)</h2>
+      <table><thead><tr><th>Specialite</th><th>Junior</th><th>Confirme</th><th>Expert / DA</th></tr></thead><tbody>
+          <tr><td>Identite visuelle / logo</td><td>250-300 EUR</td><td>350-500 EUR</td><td>550-750 EUR</td></tr>
+          <tr><td>UI / UX design</td><td>280-350 EUR</td><td>400-550 EUR</td><td>600-800 EUR</td></tr>
+          <tr><td>Illustration</td><td>250-320 EUR</td><td>350-500 EUR</td><td>550-700 EUR</td></tr>
+          <tr><td>Motion design</td><td>300-380 EUR</td><td>450-600 EUR</td><td>650-850 EUR</td></tr>
+          <tr><td>Direction artistique</td><td>-</td><td>500-650 EUR</td><td>700-900 EUR</td></tr>
+        </tbody></table>
+      <h2>Paris vs region : +80 a 120 EUR</h2>
+      <p>Un confirme facture <strong>450-550 EUR a Paris</strong> contre <strong>350-450 EUR en region</strong>.</p>
+      <h2>3 leviers pour augmenter votre TJM</h2>
+      <ul><li><strong>Montrez des resultats</strong> : un logo qui a fait grimper les ventes vaut plus qu’un portfolio sans chiffres.</li><li><strong>Packaging par offre</strong> : identite complete + charte + declinaisons.</li><li><strong>Specialisez-vous</strong> : expert UI SaaS B2B = 650 EUR vs generaliste 400 EUR.</li></ul>
+      <p>Calculez votre TJM : <strong><Link href="/">calculateur gratuit</Link></strong>.</p>
+      <p>A lire aussi : <Link href="/blog/taux-journalier-moyen/">TJM moyens par metier</Link> et <Link href="/blog/calcul-tjm/">calculer son TJM</Link>.</p>
+    </>
+  ),
+  "tjm-consultant": (
+    <>
+      <p>Le <strong>consultant freelance</strong> est le mieux paye : <strong>TJM median 650 a 750 EUR</strong> en 2025, pointes a 1 200 EUR chez les experts strategie/transformation.</p>
+      <h2>TJM par specialite (2025, France)</h2>
+      <table><thead><tr><th>Specialite</th><th>Junior</th><th>Confirme</th><th>Expert / Senior</th></tr></thead><tbody>
+          <tr><td>Strategie / organisation</td><td>450-600 EUR</td><td>700-900 EUR</td><td>1 000-1 400 EUR</td></tr>
+          <tr><td>IT / transformation digitale</td><td>400-550 EUR</td><td>600-850 EUR</td><td>900-1 200 EUR</td></tr>
+          <tr><td>Management / RH</td><td>350-450 EUR</td><td>500-700 EUR</td><td>750-1 000 EUR</td></tr>
+          <tr><td>Marketing / growth</td><td>300-400 EUR</td><td>500-700 EUR</td><td>750-1 000 EUR</td></tr>
+          <tr><td>Finance / risque</td><td>400-500 EUR</td><td>600-850 EUR</td><td>900-1 300 EUR</td></tr>
+        </tbody></table>
+      <h2>Pourquoi le TJM consultant est plus eleve</h2>
+      <ul><li><strong>Vous vendez une decision</strong> : un conseil qui evite une erreur a 500 000 EUR vaut 1 000 EUR/jour.</li><li><strong>Rarete + reseau</strong> : carnet d’adresses et methode inclus.</li><li><strong>Missions courtes</strong> : 2 a 5 jours/semaine.</li></ul>
+      <p>Votre TJM doit etre coherent avec votre marche. Verifiez avec le <strong><Link href="/">calculateur gratuit</Link></strong>.</p>
+      <p>A lire aussi : <Link href="/blog/taux-journalier-moyen/">TJM moyens par metier</Link> et <Link href="/blog/tjm-debutant/">guide debutant</Link>.</p>
+    </>
+  ),
+  "tjm-impots": (
+    <>
+      <p>C’est <strong>le poste oublie du TJM</strong> : l’impot sur le revenu. Beaucoup de simulateurs l’oublient : vous facturez 340 EUR au lieu de 380 EUR et il manque 500 EUR/mois.</p>
+      <h2>Ce que l’impot preleve vraiment (2025, celibataire)</h2>
+      <p>Pour 80 000 EUR de CA (TJM 400 EUR a 18 j) :</p>
+      <table><thead><tr><th>Statut</th><th>Assiette IR</th><th>IR 2025 estime</th></tr></thead><tbody>
+          <tr><td>Micro-entreprise</td><td>CA - abattement 34 %</td><td>6 800 EUR</td></tr>
+          <tr><td>EURL (IR)</td><td>Benefice apres charges</td><td>5 900 EUR</td></tr>
+          <tr><td>SASU (mix)</td><td>Salaire + flat tax 30 %</td><td>6 200 EUR</td></tr>
+          <tr><td>Portage salarial</td><td>Salaire net imposable</td><td>6 500 EUR</td></tr>
+        </tbody></table>
+      <h2>Exemple : TJM sans impot vs vrai TJM</h2>
+      <table><thead><tr><th>Objectif</th><th>Sans impot</th><th>Vrai TJM</th><th>Ecart</th></tr></thead><tbody>
+          <tr><td>3 000 EUR net/mois, micro</td><td>320 EUR</td><td>380 EUR</td><td>+60 EUR/jour</td></tr>
+          <tr><td>4 000 EUR net/mois, EURL</td><td>440 EUR</td><td>520 EUR</td><td>+80 EUR/jour</td></tr>
+        </tbody></table>
+      <h2>3 regles pour ne plus vous tromper</h2>
+      <ul><li><strong>Calculez a partir du net apres impot</strong>, pas du brut.</li><li><strong>Comptez l’IR des le devis</strong>, pas en fin d’annee.</li><li><strong>Provisionnez 15-20 %</strong> de chaque facture pour l’IR.</li></ul>
+      <p>Le plus simple : <strong><Link href="/">calculateur gratuit</Link></strong> — il integre le bareme IR 2025.</p>
+      <p>A lire aussi : <Link href="/blog/calcul-tjm/">calculer son TJM</Link>, <Link href="/blog/tjm-micro-entreprise/">micro-entreprise</Link> et <Link href="/blog/tjm-sasu/">SASU</Link>.</p>
+    </>
+  ),
 };
