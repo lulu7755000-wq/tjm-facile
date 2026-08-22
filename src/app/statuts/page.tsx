@@ -48,11 +48,18 @@ export default function StatutsPage() {
           <p className="mt-1 text-sm text-gray-600">
             Le calculateur compare les 4 statuts instantanément, avec les taux 2025.
           </p>
-          <Link href="/"
-            className="mt-3 inline-block rounded-xl bg-brand-800 px-6 py-3 text-sm font-bold text-white hover:bg-brand-700"
-          >
-            Ouvrir le calculateur de TJM
-          </Link>
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
+            <Link href="/"
+              className="inline-block rounded-xl bg-brand-800 px-6 py-3 text-sm font-bold text-white hover:bg-brand-700"
+            >
+              Ouvrir le calculateur de TJM
+            </Link>
+            <Link href="/#comparaison"
+              className="inline-block rounded-xl border border-brand-300 bg-white px-6 py-3 text-sm font-bold text-brand-800 hover:bg-brand-50"
+            >
+              Comparer par métier et région →
+            </Link>
+          </div>
         </div>
       </main>
       <Footer />

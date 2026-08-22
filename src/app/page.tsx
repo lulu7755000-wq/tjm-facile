@@ -2,6 +2,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Calculator from "@/components/Calculator";
+import Comparaison from "@/components/Comparaison";
 import FAQ from "@/components/FAQ";
 import { ARTICLES, formatDate } from "@/lib/articles";
 
@@ -65,6 +66,8 @@ export default function Home() {
 
         <div className="mx-auto max-w-5xl px-4">
           <Calculator />
+
+          <Comparaison />
 
           <section id="statuts" className="py-10">
             <h2 className="text-2xl font-bold text-brand-900">Quel statut choisir ?</h2>

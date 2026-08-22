@@ -15,6 +15,9 @@ export default function Header() {
           <Link href="/#calculateur" className="hover:text-brand-700">
             Calculateur
           </Link>
+          <Link href="/#comparaison" className="hover:text-brand-700">
+            Comparaison
+          </Link>
           <Link href="/statuts/" className="hover:text-brand-700">
             Les statuts
           </Link>
