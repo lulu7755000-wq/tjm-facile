@@ -7,7 +7,7 @@ export default function NotFound() {
       <Header />
       <script
         dangerouslySetInnerHTML={{
-          __html: `if(location.pathname.includes('/tjm-facile/tjm-facile'))location.replace(location.pathname.replace('/tjm-facile/tjm-facile','/tjm-facile'));`,
+          __html: `if(location.pathname.includes('/tjm-facile/tjm-facile'))location.replace(location.pathname.replace('/tjm-facile/tjm-facile','/tjm-facile'));if(location.pathname.includes('/tjm-facile/tech-ia-actu'))location.replace('https://lulu7755000-wq.github.io/tech-ia-actu/'+location.pathname.split('/tech-ia-actu/')[1]);`,
         }}
       />
       <main className="mx-auto max-w-3xl px-4 py-20 text-center">
