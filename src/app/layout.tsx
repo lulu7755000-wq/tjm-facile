@@ -4,6 +4,7 @@ import GoatCounter from "@/components/GoatCounter";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://lulu7755000-wq.github.io/tjm-facile"),
+  verification: { google: "OE05mqQEdloRCNk76npqYHRH2lB68oFiURR-S3wwKgw" },
   title: {
     default: "TJM Facile — Calculateur de TJM Freelance 2025",
     template: "%s | TJM Facile",
